@@ -14,7 +14,8 @@
     height: 90vh;
 }
 .bags{
-    margin-left: -60px;
+    margin-left: -40px;
+    margin-top: -50px;
 }
 .bags-text{
     h1{
@@ -83,22 +84,3 @@
     }
 }
 
-.card-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    .card-left{
-        flex: 1;
-        margin-bottom: 40px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        padding: 20px;
-
-        .card-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-    }
-}

@@ -49,9 +49,6 @@
 }
 .nav-menu #sign {
   background: #F70F68;
-<<<<<<< HEAD
-}/*# sourceMappingURL=bag.css.map */
-=======
 }
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
@@ -68,6 +65,7 @@
 }
 .buttons a {
   width: 115px;
+  text-decoration: none;
 }
 .buttons .get-start {
   border: 2px solid #F70F68;
@@ -96,6 +94,7 @@
 }
 .buttons a {
   width: 115px;
+  text-decoration: none;
 }
 .buttons .get-start {
   border: 2px solid #F70F68;
@@ -173,7 +172,8 @@
 }
 
 .bags {
-  margin-left: -60px;
+  margin-left: -40px;
+  margin-top: -50px;
 }
 
 .bags-text h1 {
@@ -237,26 +237,3 @@
 .product-popular .popular-btn h2 {
   font-size: 30px;
 }
-<<<<<<< HEAD
-
-.card-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-}
-.card-container .card-left {
-  flex: 1;
-  margin-bottom: 40px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-}
-.card-container .card-left .card-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-=======
->>>>>>> sreyka
->>>>>>> master
