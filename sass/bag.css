@@ -65,6 +65,7 @@
 }
 .buttons a {
   width: 115px;
+  text-decoration: none;
 }
 .buttons .get-start {
   border: 2px solid #F70F68;
@@ -93,6 +94,7 @@
 }
 .buttons a {
   width: 115px;
+  text-decoration: none;
 }
 .buttons .get-start {
   border: 2px solid #F70F68;
@@ -170,7 +172,8 @@
 }
 
 .bags {
-  margin-left: -60px;
+  margin-left: -40px;
+  margin-top: -50px;
 }
 
 .bags-text h1 {
