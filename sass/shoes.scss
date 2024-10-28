@@ -1,1 +1,7 @@
 @import "./componet/navbar";
+@import "./componet/varaible";
+
+#active{
+    transition: all 0.3s ease;
+    background: #ff8add;
+}

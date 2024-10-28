@@ -1,3 +1,85 @@
 @import "./componet/navbar";
 @import "./componet/varaible";
+@import "./componet/button";
+@import "./componet/group-mixin";
+@import "./componet/card";
+
+#active{
+    transition: all 0.3s ease;
+    background: #ff8add;
+}
+.container{
+    padding: 10%;
+    background-image: url(../images/bag/background.webp);
+    height: 90vh;
+}
+.bags{
+    margin-left: -60px;
+}
+.bags-text{
+    h1{
+        font-size: 70px;
+        color: $fontcolor;
+        margin-top: 6%;
+    }
+    p{
+        width: 30%;
+        color: $fontcolor;
+    }
+}
+.bag-product{
+    padding: 50px;
+    text-align: center;
+    h1{
+        font-size: 48px;
+    }
+    p{
+        color: $pcolor;
+    }
+}
+
+.popular-bag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 110px;
+    margin-top: -140px;
+}
+
+.product-popular {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+
+    .product-small {
+        flex: 1;
+        max-width: 35%;
+    }
+    
+    .product-large {
+        flex: 2;
+        max-width: 60%;
+    }
+    
+    .product-small img, .product-large img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .product-large img{
+        height: 78vh;
+    }
+    .popular-btn{
+        display: flex;
+        justify-content: space-between;
+        padding: 2px;
+
+        h2{
+            font-size: 30px;
+        }
+    }
+}
 

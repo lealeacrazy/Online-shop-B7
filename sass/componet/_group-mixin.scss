@@ -7,9 +7,10 @@
     text-decoration: none;
     list-style: none;
 }
-@mixin universal{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", serif;
+
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
 }
