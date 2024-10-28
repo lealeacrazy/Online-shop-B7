@@ -50,6 +50,106 @@
 .nav-menu #sign {
   background: #F70F68;
 }
+<<<<<<< HEAD
+
+.text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 50vh;
+  background: url(https://static.vecteezy.com/system/resources/previews/001/929/441/non_2x/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-with-gift-boxes-illustration-free-vector.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  border: solid;
+  margin-top: 20px;
+}
+main .text {
+  text-align: center;
+  margin-top: 50px;
+}
+main .text .icon {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+}
+main .text .icon span {
+  font-size: 50px;
+}
+main .text .icon p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+main .main-form {
+  background: #FF98B2;
+  padding: 20px;
+  border: 1px solid;
+}
+main .main-form .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-form .form .user {
+  padding: 10px;
+}
+main .main-form input {
+  padding: 15px;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+main .message {
+  text-align: center;
+  margin-top: 20px;
+}
+main .message input {
+  padding: 20px;
+  width: 97%;
+}
+main button {
+  background: #F70F68;
+  padding: 15px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 35%;
+  border: none;
+  color: white;
+}
+
+.map {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.social .social-media img {
+  width: 70px;
+  height: 70px;
+}
+.social p {
+  padding: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=contact.css.map */
+=======
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
 }
+>>>>>>> sreyka

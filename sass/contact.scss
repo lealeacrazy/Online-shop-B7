@@ -1,2 +1,89 @@
 @import "./componet/navbar";
 @import "./componet/varaible";
+
+
+.text-1{
+    @include centered;
+    background: $fontcolor;
+    height: 50vh;
+    background: url(https://static.vecteezy.com/system/resources/previews/001/929/441/non_2x/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-with-gift-boxes-illustration-free-vector.jpg);   
+    background-size: cover;
+    background-position: center;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border: solid;
+    margin-top: 20px;
+    .text{
+        text-align: center;
+        margin-top: 50px;
+        .icon{
+            display: flex;
+            justify-content: start;
+            padding: 10px;
+            span{
+                font-size: 50px;
+            }
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .main-form{
+        background: $nav-bar;
+        padding: 20px;
+        border: 1px solid;
+        .form{
+            @include centered;
+            .user{
+                padding: 10px;
+            }
+        }
+        input{
+            padding: 15px;
+            width: 350px;
+            border-radius: 15px;
+            border: none;
+        }
+    }
+    .message{
+        text-align: center;
+        margin-top: 20px;
+        input{
+            padding: 20px;
+            width: 97%;
+        }
+    }
+    button{
+        background: $button-color;
+        padding: 15px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 35%;
+        border: none;
+        color: $fontcolor;
+    }
+}
+.map{
+    text-align: center;
+    margin-top: 50px;
+}
+.social{
+    @include centered;
+    .social-media{
+        @include centered;
+        padding: 50px;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    p{
+        padding: 10px;
+        font-size: 20px;
+    }
+}

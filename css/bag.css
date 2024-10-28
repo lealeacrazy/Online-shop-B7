@@ -49,6 +49,9 @@
 }
 .nav-menu #sign {
   background: #F70F68;
+<<<<<<< HEAD
+}/*# sourceMappingURL=bag.css.map */
+=======
 }
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
@@ -234,6 +237,7 @@
 .product-popular .popular-btn h2 {
   font-size: 30px;
 }
+<<<<<<< HEAD
 
 .card-container {
   max-width: 1200px;
@@ -253,3 +257,6 @@
   margin-bottom: 20px;
   text-align: center;
 }
+=======
+>>>>>>> sreyka
+>>>>>>> master
