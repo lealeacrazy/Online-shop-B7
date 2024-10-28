@@ -1,0 +1,32 @@
+@import "./varaible";
+
+.buttons{
+    margin-top: 20px;
+    .learn-more{
+        background: $button-color;
+        padding: 12px;
+        color: $fontcolor;
+        text-align: center;
+    }
+
+    a{
+        width: 115px;
+    }
+
+    .get-start{
+        border: 2px solid $button-color;
+        padding: 11px 24px;
+        color: $fontcolor;
+    }
+    a:hover {
+        cursor: pointer;
+        border: 2px solid #f5f5f5ce;
+    }
+} 
+.product-btn{
+    border: 2px solid $button-color;
+    padding: 11px 24px;
+    background: none;
+} 
+
+
