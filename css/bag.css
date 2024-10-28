@@ -234,3 +234,22 @@
 .product-popular .popular-btn h2 {
   font-size: 30px;
 }
+
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+.card-container .card-left {
+  flex: 1;
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+.card-container .card-left .card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
