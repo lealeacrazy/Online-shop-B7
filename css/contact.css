@@ -49,10 +49,13 @@
 }
 .nav-menu #sign {
   background: #F70F68;
-<<<<<<< HEAD
 }
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
+}
+
+p {
+  font-size: 20px;
 }
 
 .text-1 {
@@ -133,9 +136,12 @@ main button {
 }
 
 .social {
+  background: url(https://img.freepik.com/premium-photo/light-pink-background-starry-sky-pattern-soft-colors-simple-cute-style-cartoonlike-decorati_1305056-99074.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
 }
 .social .social-media {
   display: flex;
@@ -151,6 +157,11 @@ main button {
   padding: 10px;
   font-size: 20px;
 }
-=======
-}/*# sourceMappingURL=contact.css.map */
->>>>>>> channak
+
+@media (max-width: 768px) { /* Tablet */
+  main {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) { /* Mobile */ }/*# sourceMappingURL=contact.css.map */

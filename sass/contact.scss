@@ -1,7 +1,9 @@
 @import "./componet/navbar";
 @import "./componet/varaible";
 
-
+p{
+    font-size: 20px
+}
 .text-1{
     @include centered;
     background: $fontcolor;
@@ -73,7 +75,10 @@ main{
     margin-top: 50px;
 }
 .social{
+    background: url(https://img.freepik.com/premium-photo/light-pink-background-starry-sky-pattern-soft-colors-simple-cute-style-cartoonlike-decorati_1305056-99074.jpg);
     @include centered;
+    background-size: cover;
+    background-position: center;
     .social-media{
         @include centered;
         padding: 50px;
@@ -86,4 +91,20 @@ main{
         padding: 10px;
         font-size: 20px;
     }
+}
+
+
+
+
+@media (max-width: 768px) { /* Tablet */
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+   
+}
+
+@media (max-width: 480px) { /* Mobile */
+   
 }
