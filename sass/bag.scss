@@ -3,6 +3,7 @@
 @import "./componet/button";
 @import "./componet/group-mixin";
 @import "./componet/card";
+@import "./componet/footer";
 
 #active{
     transition: all 0.3s ease;
@@ -74,11 +75,12 @@
         height: 78vh;
     }
     .popular-btn{
+        margin-top: 10px;
         display: flex;
         justify-content: space-between;
         padding: 2px;
 
-        h2{
+        p{
             font-size: 30px;
         }
     }
@@ -104,3 +106,36 @@
         }
     }
 }
+.rows{
+    P{
+        margin-left: 113px;
+        font-size: 28px;
+    }
+    .row{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.508);
+    width: 85%;
+    margin: auto;
+    }
+}
+
+
+.div-footer{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid gray;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+
+    .more-product{
+        font-size: 25px;
+
+    }
+
+    .show-more{
+        @include centered;
+        padding: 10px;
+        gap: 8px;
+    }
+}
+
