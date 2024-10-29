@@ -58,6 +58,16 @@ p {
   font-size: 20px;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+aside {
+  background: url(https://img.freepik.com/premium-vector/abstract-pink-liquid-watercolor-background-with-golden-dots-lines_353323-304.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .text-1 {
   display: flex;
   justify-content: center;
@@ -133,15 +143,14 @@ main button {
 .map {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 10px;
+  border: solid;
 }
 
 .social {
-  background: url(https://img.freepik.com/premium-photo/light-pink-background-starry-sky-pattern-soft-colors-simple-cute-style-cartoonlike-decorati_1305056-99074.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-position: center;
 }
 .social .social-media {
   display: flex;
