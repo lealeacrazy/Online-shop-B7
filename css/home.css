@@ -53,6 +53,7 @@
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
 }
+<<<<<<< HEAD
 
 .footer-container {
   width: 100%;
@@ -127,6 +128,8 @@
   margin-left: -10px;
   color: gray;
 }
+=======
+>>>>>>> channak
 
 .home-container {
   background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
@@ -318,6 +321,7 @@
   margin-top: 24px;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
+  margin-bottom: 24px;
 }
 
 .text-fb-home {
@@ -338,6 +342,7 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 34px;
+  margin-bottom: 24px;
 }
 
 .pf-card-home {
@@ -365,10 +370,14 @@
 
 .feel-card-home {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .card-home p {
   margin-bottom: 10px;
+<<<<<<< HEAD
 }
+=======
+}/*# sourceMappingURL=home.css.map */
+>>>>>>> channak
