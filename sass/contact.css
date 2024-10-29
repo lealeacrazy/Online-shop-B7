@@ -54,6 +54,20 @@
   color: rgba(128, 128, 128, 0.926);
 }
 
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+aside {
+  background: url(https://img.freepik.com/premium-vector/abstract-pink-liquid-watercolor-background-with-golden-dots-lines_353323-304.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .text-1 {
   display: flex;
   justify-content: center;
@@ -129,6 +143,8 @@ main button {
 .map {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 10px;
+  border: solid;
 }
 
 .social {
@@ -150,3 +166,11 @@ main button {
   padding: 10px;
   font-size: 20px;
 }
+
+@media (max-width: 768px) { /* Tablet */
+  main {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) { /* Mobile */ }
