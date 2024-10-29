@@ -165,6 +165,7 @@ main button {
 .social p {
   padding: 10px;
   font-size: 20px;
+<<<<<<< HEAD
 }
 
 @media (max-width: 768px) { /* Tablet */
@@ -174,3 +175,6 @@ main button {
   }
 }
 @media (max-width: 480px) { /* Mobile */ }
+=======
+}
+>>>>>>> sreyka
