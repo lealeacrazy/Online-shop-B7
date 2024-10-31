@@ -239,7 +239,6 @@ main button {
 .social p {
   padding: 10px;
   font-size: 20px;
-<<<<<<< HEAD
 }
 
 @media (max-width: 768px) { /* Tablet */
@@ -248,7 +247,4 @@ main button {
     padding: 10px;
   }
 }
-@media (max-width: 480px) { /* Mobile */ }
-=======
-}/*# sourceMappingURL=contact.css.map */
->>>>>>> channak
+@media (max-width: 480px) { /* Mobile */ }/*# sourceMappingURL=contact.css.map */
