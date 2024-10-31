@@ -317,6 +317,7 @@ h2 {
     margin-right: 30px;
   }
 }
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
     font-size: 20px;
@@ -437,3 +438,6 @@ h2 {
     margin-right: 1px;
   }
 }/*# sourceMappingURL=contact.css.map */
+=======
+@media (max-width: 480px) { /* Mobile */ }/*# sourceMappingURL=contact.css.map */
+>>>>>>> channak
