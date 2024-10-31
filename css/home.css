@@ -249,45 +249,7 @@
 }
 
 .audiences {
-  margin-top: 14px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-.audiences .text-audience {
-  text-align: center;
-  padding: 24px;
-  font-size: 18px;
-}
-.audiences .choose-audience {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 24px;
-}
-.audiences .choose-audience .card {
-  width: 230px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  background-color: #89DCFE;
-}
-.audiences .choose-audience .card img {
-  width: 100%;
-  height: 80%;
-  border-radius: 10px;
-}
-.audiences .choose-audience .card .shop-audience {
-  display: flex;
-  padding: 14px;
-  justify-content: space-evenly;
-}
-.audiences .choose-audience .card .shop-audience button {
-  width: 80px;
-  height: 30px;
-  border-radius: 10px;
-  border: none;
-  background-color: #F70F68;
-  color: #fff;
+  display: none;
 }
 
 .shoes-home {
@@ -378,5 +340,29 @@
   border: none;
   background-color: #89DCFE;
   cursor: pointer;
+<<<<<<< HEAD
+>>>>>>> channak
+=======
+}
+
+@media (max-width: 800px) {
+  .header {
+    width: 90%;
+  }
+  .header .nav-bar {
+    width: 90%;
+  }
+  .header .nav-bar .logo-container img {
+    width: 65px;
+    border-radius: 100%;
+  }
+  .header .nav-bar .nav-menu ul li {
+    margin-right: 70px;
+  }
+  .header .nav-bar .nav-menu ul li a {
+    font-size: 18px;
+    margin: 8px;
+    padding: 10px 20px;
+  }
 >>>>>>> channak
 }/*# sourceMappingURL=home.css.map */
