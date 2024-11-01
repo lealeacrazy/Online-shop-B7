@@ -14,3 +14,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+.nav-menu{
+    a:hover{
+        transition: all 0.3s ease;
+        background: rgba(240, 24, 150, 0.818);
+    }
+}
