@@ -748,6 +748,7 @@ h2 {
   margin-top: 50px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) and (max-width: 1024px) { /* Tablet */
 =======
 @media (max-width: 768px) { /* Tablet */
@@ -755,6 +756,9 @@ h2 {
 =======
 @media (max-width: 768px) { /* Tablet */
 >>>>>>> sreyka
+=======
+@media (min-width: 800px) and (max-width: 1024px) { /* Tablet */
+>>>>>>> mealea
   main {
     flex-direction: column;
     padding: 10px;
@@ -824,7 +828,11 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
+<<<<<<< HEAD
+    font-size: 20px;
+=======
     font-size: 10px;
+>>>>>>> master
     margin-top: 10px;
   }
   .map {
