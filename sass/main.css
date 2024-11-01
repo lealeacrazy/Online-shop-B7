@@ -5,6 +5,9 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -18,14 +21,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -35,7 +38,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -45,10 +48,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -60,6 +59,9 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -73,14 +75,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -90,7 +92,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -100,10 +102,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -132,6 +130,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -164,6 +163,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -298,11 +298,6 @@
   color: gray;
 }
 
-#active {
-  transition: all 0.3s ease;
-  background: #ff8add;
-}
-
 .container {
   padding: 10%;
   background-image: url(../images/bag/background.webp);
@@ -346,22 +341,23 @@
 .product-popular {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   border-radius: 10px;
   overflow: hidden;
   justify-content: space-between;
+  width: 100%;
 }
 .product-popular .product-small {
-  flex: 1;
-  max-width: 35%;
+  flex: 2;
+  max-width: 40%;
 }
 .product-popular .product-large {
-  flex: 2;
-  max-width: 60%;
+  flex: 4;
+  width: 160%;
 }
 .product-popular .product-small img, .product-popular .product-large img {
   width: 100%;
-  height: auto;
+  height: 78vh;
   border-radius: 8px;
 }
 .product-popular .product-large img {
@@ -397,9 +393,14 @@
 .rows P {
   margin-left: 113px;
   font-size: 28px;
+  color: gray;
+}
+.rows P span {
+  margin-left: 70%;
+  font-size: 18px;
 }
 .rows .row {
-  border-bottom: 5px solid rgba(0, 0, 0, 0.508);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.508);
   width: 85%;
   margin: auto;
 }
@@ -423,9 +424,39 @@
   gap: 8px;
 }
 
+.shop-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+  color: #F70F68;
+  gap: 8px;
+}
+.shop-more a {
+  color: #F70F68;
+  font-size: 20px;
+}
+
+.container-clothes {
+  padding: 10%;
+  background-image: url(../images/clothes/background.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.container-shoes {
+  padding: 10%;
+  background-image: url(../images/shoes/background.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -439,14 +470,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -456,7 +487,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -467,15 +498,99 @@
   margin: 10px;
   padding: 12px 24px;
 }
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
-}
 .nav-menu #sign {
   background: #F70F68;
 }
 .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
+}
+
+.footer-container {
+  width: 100%;
+}
+.footer-container .menu-section {
+  margin-top: 3%;
+  display: flex;
+  gap: 35px;
+  margin-left: 90px;
+}
+.footer-container .menu-section .h3-menu {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.76);
+}
+.footer-container .menu ul li {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.footer-container .menu ul li a {
+  color: gray;
+}
+.footer-container .menu ul li span {
+  margin-left: 20px;
+  padding: 5px 13px;
+  border-radius: 30px;
+  background: #F70F68;
+  color: white;
+}
+.footer-container .menu .hh {
+  margin-left: 10px;
+}
+.footer-container .men {
+  margin-left: 430px;
+}
+
+.languages-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  margin: auto;
+  height: 12vh;
+  margin-top: 5%;
+  gap: 15px;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-left: none;
+  border-right: none;
+}
+.languages-section a {
+  color: gray;
+}
+.languages-section .languages-active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.footer-section {
+  width: 100%;
+  height: 50vh;
+  margin-top: -90px;
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+  padding: 100px;
+}
+.footer-section .footer-left ul {
+  display: flex;
+}
+.footer-section .footer-left ul li a {
+  padding: 10px;
+  margin-left: -10px;
+  color: gray;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+aside {
+  background: url(https://img.freepik.com/premium-vector/abstract-pink-liquid-watercolor-background-with-golden-dots-lines_353323-304.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .text-1 {
@@ -553,6 +668,8 @@ main button {
 .map {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 10px;
+  border: solid;
 }
 
 .social {
@@ -575,6 +692,13 @@ main button {
   font-size: 20px;
 }
 
+@media (max-width: 768px) { /* Tablet */
+  main {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) { /* Mobile */ }
 .footer-container {
   width: 100%;
 }
@@ -656,4 +780,9 @@ main button {
   font-family: "Poppins", serif;
   text-decoration: none;
   list-style: none;
+}
+
+.nav-menu a:hover {
+  transition: all 0.3s ease;
+  background: rgba(240, 24, 150, 0.818);
 }

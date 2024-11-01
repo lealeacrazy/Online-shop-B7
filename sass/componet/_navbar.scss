@@ -5,47 +5,47 @@
 .header{
     width: 100%;
     background: $nav-bar;
-}
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-}
-.logo-container{
-    display: flex;
-    margin-left: 90px;
-}
-.logo-container img{
-    width: 80px;
-    border-radius: 100%;
-    margin: 8px;
-    margin-top: 13px;
-}
-.logo-container h2{
-    margin-top: 32px;
-    color: $fontcolor;
-}
-.nav-menu{
-    padding: 10px;
-    ul li{
-        @include text;
-        margin-top: 25px;
-        margin-right: 90px;
-        a{
+    height: 12vh;
+    position: sticky;
+    top: 0;
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-container{
+        display: flex;
+        margin-left: 90px;
+    }
+    .logo-container img{
+        width: 70px;
+        border-radius: 100%;
+        margin: 8px;
+        margin-top: 9px;
+    }
+    .logo-container h2{
+        margin-top: 26px;
+        color: $fontcolor;
+    }
+    .nav-menu{
+        padding: 10px;
+        ul li{
             @include text;
-            color: $fontcolor;
-            font-size: 20px;
-            margin: 10px;
-            padding: 12px 24px;
+            margin-top: 18px;
+            margin-right: 90px;
+            a{
+                @include text;
+                color: $fontcolor;
+                font-size: 20px;
+                margin: 10px;
+                padding: 12px 24px;
+            }
         }
-        a:hover{
-            cursor: pointer;
-            background: #ff8add;
+        #sign{
+            background: $button-color;
         }
-    }
-    #sign{
-        background: $button-color;
-    }
-    #sign:hover{
-        color: rgba(128, 128, 128, 0.926);
+        #sign:hover{
+            color: rgba(128, 128, 128, 0.926);
+        }
     }
 }
