@@ -9,214 +9,240 @@
     background-position: bottom;
     background-size: cover;
     height: 570px;
-    padding: 130px;
+    padding: 100px;
     color: #fff;
+    .text-home-container{
+        margin-left: 134px;
+        p{
+            width: 580px;
+            font-size: 24px;
+        }
+    }
+    .btn-home{
+        margin-top: 14px;
+        .btn1-home{
+            padding: 10px;
+            background-color: #F70F68;
+            border: none;
+            color: #fff;
+            width: 100px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .btn2-home{
+            padding: 8px;
+            background-color: #F9C6C5;
+            border: blue 2px solid;
+            color: #000;
+            width: 100px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
 }
-.text-home-container{
-    margin-left: 100px;
-}
-.home-container p{
-    width: 600px;
-    font-size: 20px;
-    margin-top: 15px;
-}
-.btn-home{
-    margin-top: 15px;
-}
-.btn1-home{
-    padding: 10px;
-    background-color: #F70F68;
-    border: none;
-    color: #fff;
-    width: 100px;
-    font-size: 14px;
-}
-.btn2-home{
-    padding: 8px;
-    background-color: #F9C6C5;
-    border: blue 2px solid;
-    color: #000;
-    width: 100px;
-    font-size: 14px;
-}
-
-
 .text-home{
     text-align: center;
     padding: 34px;
     font-size: 20px;
 }
-
-
 .bag-home{
-    display: flex
+    display: flex;
+    .img-bag img{
+        width: 400px;
+        height: 500px;
+        margin-left: 100px;
+        margin-bottom: 24px;
+    }
+    .text-bag-home{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 120px;
+        p {
+            width: 550px; 
+            font-size: 20px;  
+        }
+        .btn-home{
+            margin-top: 14px;
+        }
+    }
 }
-.img-home img{
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
-}
-.text-bag-home{
-    text-align: center;
-    margin-top: 140px;
-    margin-left: 100px;
-}
-.text-bag-home p {
-    width: 500px; 
-    font-size: 20px;  
-}
-.btn-bag-home{
-    padding: 10px;
-}
-.btn1-bag-home{
+.btn1-brand-home{
     padding: 10px;
     background-color: #F70F68;
     border: none;
     color: #fff;
     width: 100px;
     font-size: 14px;
+    cursor: pointer;
 }
-.btn2-bag-home{
+.btn2-brand-home{
     padding: 8px;
     background-color: #fff;
     border: #F70F68 2px solid;
     color: #000;
     width: 100px;
     font-size: 14px;
+    cursor: pointer;
 }
-
-
 .discount-home{
     display: flex;
     padding: 50px;
     background-color: #EDF9FF;
     justify-content: space-evenly;
     margin-top: 15px;
+    .dis-home{
+        text-align: center;
+        width: 260px;
+        font-size: 18px;
+    }
 }
-.dis-home{
-    text-align: center;
-    width: 250px;
-    font-size: 18px;
-}
-
 
 .clothe-home{
     display: flex;
-    margin-top: 20px;
-}
-.img-clothe-home img{
-    width: 500px;
-    height: 500px;
-    margin-right: 50px;
-}
-.clothe-home{
+    margin-top: 24px;
     justify-content: space-between;
+    .text-clothe-home{
+        text-align: center;
+        margin: 90px 0px 100px 90px;
+        p{
+            width: 550px; 
+            font-size: 20px;
+        }
+        .btn-home{
+            margin-top: 14px;
+        }
+    }
+    img{
+        width: 500px;
+        height: 400px;
+        margin-right: 50px;
+    }
 }
-.text-clothe-home{
-    text-align: center;
-    margin: 150px 0px 150px 100px;
+.audiences{
+    
+    margin-top: 14px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    .text-audience{
+        text-align: center;
+        padding: 24px;
+        font-size: 18px;
+    }
+    .choose-audience{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 24px;
+        .card{
+            width: 230px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            background-color: #89DCFE;
+            img{
+                width: 100%;
+                height: 80%;
+                border-radius: 10px;
+            }
+            .shop-audience{
+                display: flex;
+                padding: 14px;
+                justify-content: space-evenly;
+                button{
+                    width: 80px;
+                    height: 30px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: #F70F68;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
-.text-clothe-home p{
-    width: 500px; 
-    font-size: 20px;
-}
-.btn1-clothe-home{
-    padding: 10px;
-    background-color: #F70F68;
-    border: none;
-    color: #fff;
-    width: 100px;
-    font-size: 14px;
-}
-.btn2-clothe-home{
-    padding: 8px;
-    background-color: #fff;
-    border: #F70F68 2px solid;
-    color: #000;
-    width: 100px;
-    font-size: 14px;
-}
-
 .shoes-home{
     display: flex;
+    img{
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+        margin-top: 44px;
+    }
+    .text-shoes-home{
+        text-align: center;
+        margin-top: 134px;
+        margin-left: 80px;
+        p{
+            width: 550px; 
+            font-size: 20px;
+        }
+        .btn-home{
+            margin-top: 14px;
+        }
+    }
 }
-.img-shoe-home img{
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
-}
-.text-shoes-home{
-    text-align: center;
-    margin-top: 140px;
-    margin-left: 100px;
-}
-.text-shoes-home p{
-    width: 500px; 
-    font-size: 20px;
-}
-.btn1-shoe-home{
-    padding: 10px;
-    background-color: #F70F68;
-    border: none;
-    color: #fff;
-    width: 100px;
-    font-size: 14px;
-}
-.btn2-shoe-home{
-    padding: 8px;
-    background-color: #fff;
-    border: #F70F68 2px solid;
-    color: #000;
-    width: 100px;
-    font-size: 14px;
-}
-
 .feedback-home{
-    margin-top: 24px;
+    margin-top: 44px;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     margin-bottom: 24px;
-}
-.text-fb-home{
-    text-align: center;
-    margin-top: 20px;
-}
-.text-fb-home p{
-    font-size: 18px;
-}
-.card-home{
-    width: 450px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    .text-fb-home{
+        text-align: center;
+        margin-top: 20px;
+        p{
+            font-size: 18px;
+        }
+    }
 }
 .cards-home{
     display: flex;
     justify-content: space-evenly;
     margin-top: 34px;
     margin-bottom: 24px;
+    .card-home{
+        width: 450px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        border-radius: 10px;
+        .pf-card-home{
+            display: flex;
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 100px;
+                margin: 14px;
+            }
+            .name-pf-home{
+                margin-top: 24px;
+                .icon-card-home{
+                    margin-top: 8px;
+                }
+            }
+        }
+            h4{
+                margin-left: 25px;
+            }
+        p{
+            margin-left: 24px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    }
+    .card-home:hover{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
 }
-.pf-card-home{
-    display: flex;
+
+.view-footer-home{
+    text-align: center;
+    button{
+        margin-top: 14px;
+        width: 100px;
+        height: 34px;
+        border: none;
+        background-color: #89DCFE;
+        cursor: pointer;
+    }
 }
-.img-pf-card img{
-    width: 80px;
-    height: 80px;
-    border-radius: 100px;
-    margin: 14px;
-}
-.name-pf-home{
-    margin-top: 24px;
-}
-.card-home p{
-    margin-left: 24px;
-}
-.icon-card-home{
-    margin-top: 8px;
-}
-.feel-card-home{
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.card-home p{
-    margin-bottom: 10px;
+@media (max-width: 800px){
+    
 }

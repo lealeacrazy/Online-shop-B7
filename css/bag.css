@@ -2,6 +2,9 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -15,14 +18,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -32,7 +35,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -42,10 +45,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -74,6 +73,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -106,6 +106,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -164,6 +165,44 @@
   transition: all 0.4s ease;
   cursor: pointer;
   border: 2px solid rgba(245, 245, 245, 0.8078431373);
+}
+
+.cards-home {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.cards-home .card-home {
+  width: 450px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+}
+.cards-home .card-home .pf-card-home {
+  display: flex;
+}
+.cards-home .card-home .pf-card-home img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: 14px;
+}
+.cards-home .card-home .pf-card-home .name-pf-home {
+  margin-top: 24px;
+}
+.cards-home .card-home .pf-card-home .name-pf-home .icon-card-home {
+  margin-top: 8px;
+}
+.cards-home .card-home h4 {
+  margin-left: 25px;
+}
+.cards-home .card-home p {
+  margin-left: 24px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.cards-home .card-home:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .footer-container {
@@ -240,11 +279,6 @@
   color: gray;
 }
 
-#active {
-  transition: all 0.3s ease;
-  background: #ff8add;
-}
-
 .container {
   padding: 10%;
   background-image: url(../images/bag/background.webp);
@@ -288,22 +322,23 @@
 .product-popular {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   border-radius: 10px;
   overflow: hidden;
   justify-content: space-between;
+  width: 100%;
 }
 .product-popular .product-small {
-  flex: 1;
-  max-width: 35%;
+  flex: 2;
+  max-width: 40%;
 }
 .product-popular .product-large {
-  flex: 2;
-  max-width: 60%;
+  flex: 4;
+  width: 160%;
 }
 .product-popular .product-small img, .product-popular .product-large img {
   width: 100%;
-  height: auto;
+  height: 78vh;
   border-radius: 8px;
 }
 .product-popular .product-large img {
@@ -339,9 +374,14 @@
 .rows P {
   margin-left: 113px;
   font-size: 28px;
+  color: gray;
+}
+.rows P span {
+  margin-left: 70%;
+  font-size: 18px;
 }
 .rows .row {
-  border-bottom: 5px solid rgba(0, 0, 0, 0.508);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.508);
   width: 85%;
   margin: auto;
 }
@@ -363,4 +403,35 @@
   align-items: center;
   padding: 10px;
   gap: 8px;
+<<<<<<< HEAD
 }/*# sourceMappingURL=bag.css.map */
+=======
+}
+
+.shop-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+  color: #F70F68;
+  gap: 8px;
+}
+.shop-more a {
+  color: #F70F68;
+  font-size: 20px;
+}
+
+.container-clothes {
+  padding: 10%;
+  background-image: url(../images/clothes/background.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.container-shoes {
+  padding: 10%;
+  background-image: url(../images/shoes/background.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+>>>>>>> sreyka

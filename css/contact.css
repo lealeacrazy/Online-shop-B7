@@ -2,40 +2,38 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
-
-.nav-bar {
+.header .nav-bar {
   display: flex;
   justify-content: space-between;
 }
-
-.logo-container {
+.header .logo-container {
   display: flex;
   margin-left: 90px;
 }
-
-.logo-container img {
-  width: 80px;
+.header .logo-container img {
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
-
-.logo-container h2 {
-  margin-top: 32px;
+.header .logo-container h2 {
+  margin-top: 26px;
   color: white;
 }
-
-.nav-menu {
+.header .nav-menu {
   padding: 10px;
 }
-.nav-menu ul li {
+.header .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
-.nav-menu ul li a {
+.header .nav-menu ul li a {
   text-decoration: none;
   list-style: none;
   color: white;
@@ -43,14 +41,10 @@
   margin: 10px;
   padding: 12px 24px;
 }
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
-}
-.nav-menu #sign {
+.header .nav-menu #sign {
   background: #F70F68;
 }
-.nav-menu #sign:hover {
+.header .nav-menu #sign:hover {
   color: rgba(128, 128, 128, 0.926);
 }
 
@@ -81,7 +75,7 @@
   background: #F70F68;
   color: white;
 }
-.footer-container .menu .hh {
+.footer-container .menu .right {
   margin-left: 10px;
 }
 .footer-container .men {
@@ -124,7 +118,7 @@
 }
 .footer-section .footer-left ul li a {
   padding: 10px;
-  margin-left: -10px;
+  margin-left: -5px;
   color: gray;
 }
 
@@ -317,6 +311,7 @@ h2 {
     margin-right: 30px;
   }
 }
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
     font-size: 15px;
@@ -439,7 +434,14 @@ h2 {
   .footer-container .menu-section .men1 {
     margin-right: 1px;
   }
+<<<<<<< HEAD
   .footer-container p {
     font-size: 15px;
   }
 }/*# sourceMappingURL=contact.css.map */
+=======
+}/*# sourceMappingURL=contact.css.map */
+=======
+@media (max-width: 480px) { /* Mobile */ }/*# sourceMappingURL=contact.css.map */
+>>>>>>> channak
+>>>>>>> 497d786ccf86b9a431681f53b5f9b71ab583cf9c
