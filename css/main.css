@@ -743,7 +743,11 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 10px;
+>>>>>>> master
     margin-top: 10px;
   }
   .map {
@@ -836,8 +840,8 @@ h2 {
     padding: 10px;
   }
   aside .social .social-media img {
-    width: 40px;
-    height: 10vh;
+    width: 30px;
+    height: 8vh;
   }
   aside .social p {
     font-size: 10px;
