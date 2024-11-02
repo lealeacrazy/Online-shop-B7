@@ -4,36 +4,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-// Sell-responsive //
 
 @mixin responsive-sell {
-    @media (min-width: 800px) and (max-width: 1280px){
+
+    // Sell-responsive for tablet//
+
+    @media (min-width: 768px) and (max-width: 1024px){
     
-        p{
-            font-size: 16px;
-        }
-        h1{
-            font-size: 20px;
-        }
-        h2{
-            font-size: 20px;
-        }
-        h3{
-            font-size: 16px;
+        .header{
+            width: 100%;
+            background: $nav-bar;
+            height: 12vh;
+            position: sticky;
+            top: 0;
+        
+            .nav-bar{
+                display: flex;
+                justify-content: space-between;
+                span {
+                    display:flex ;
+                }
+            }
+            .nav-menu {
+                display: none;
+            }
         }
         .container {
-            height: 47vh;
-        }
-        
-        .header{
-            height: 6vh;
+            height:45vh;
             .bags {
+                position: absolute;
+                top:10%;
+                left: 4%;
                 .bags-text {
                     h1 {
+                        font-size: 28px;
+                    }
+                    p {
                         font-size: 12px;
                     }
                 }
             }
+            .buttons{
+                margin-top: 20px;
+                .learn-more{
+                    background: $button-color;
+                    padding: 6px;
+                    color: $fontcolor;
+                    text-align: center;
+                }
+                
+                .get-start{
+                    padding: 6px 24px;
+                }
+            
+            } 
+        }
+        
+        .header{
+            height: 6vh;
             .nav-menu{
                 ul{
                     position: relative;
@@ -51,7 +79,8 @@
     
             .logo-container{ 
                 img{
-                width: 52px;
+                width: 50px;
+                height: 50px;
                 margin-left: -50px;
                 }
 
@@ -73,8 +102,7 @@
                 }
 
             }
-
-        
+                   
         .product-card{
             width: 100%;
             max-width: 250px;
@@ -98,10 +126,16 @@
             .product-popular {
                 width: 100%;
                 height: 90vh;
+                .popular-btn {
+                    .learn-more {
+                        position: absolute;
+                        left: 76%;
+                    }
+                }
                 .product-small {
                     height: 100%;
                     img {
-                        width: 655px;
+                        width: 690px;
                         height: 85%;
     
                     }
@@ -110,8 +144,6 @@
             }
         }
         .footer-container{
-            width: 100%;
-            
             .menu-section{
                 display: flex;
                 margin-left: 10px; 
@@ -120,16 +152,216 @@
             }
         
             .menu{
+                width: 100%;
                 ul li {
                     span{
                         display: none;
                     }
-                }             
+                }  
+                
+            }
+
+            .men {
+                margin-left: -420px;
+            }
+
+            .languages-section{
+                height: 6vh;
+            }
+
+            .footer-section{
+                .footer-left{
+                    margin-left: -50px;
+                }
+
+                .footer-right{
+                    margin-right: -50px;
+                }
             }
         
         }
 
 
     }
+    @media (min-width: 320px) and (max-width: 480px){
+        .header{
+            width: 100%;
+            background: $nav-bar;
+            height: 12vh;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 6vh;
+            
+            .nav-bar{
+                width: 100%;
+                display: flex;
+                
+                align-items: center;
+                span {
+                    display:flex ;
+                    margin-left: 70%;
+                }
+                .logo-container {
+                    width: 10%;
+                    background: black;
+                    margin-right: 40px;
+                    h2 {
+                        display: none;
+                    }
+                    position: absolute;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .logo {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+           
+            .nav-menu {
+                display: none;
+            }
+        }
+        
+        .container {
+            height:34vh;
+            .bags {
+                position: absolute;
+                top:6%;
+                left: 4%;
+                .bags-text {
+                    width: 300px;
+                    h1 {
+                        font-size: 12px;
+                    }
+                    p {
+                        font-size: 4px;
+                    }
+                }
+            }
+            .buttons{
+                margin-top: 20px;
+                .learn-more{
+                    background: $button-color;
+                    padding: 2px;
+                    color: $fontcolor;
+                    text-align: center;
+                    font-size: 10px;
+                }
+                
+                .get-start{
+                    padding: 2px 18px;
+                    font-size: 10px;
+                }
+            
+            } 
+        }
+        .bag-product {
+            h1 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+        .product-bag {
+            padding: 0;
+            width: 100%;
+            .product-card {
+                display: flex;
+                width: 90%;
+                max-width: 90%;
+                .group_information {
+                    .product-btn {
+                        padding: 4px 20px;
+                    }
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                }
+            }
+        }
+        .popular-bag {
+            padding: 20px;
+            width: 100%;
+            margin-left: 50px;
+            margin-top: -15px;
     
+            .product-large {
+                display: none;
+            }
+            .product-popular {
+                width: 100%;
+                height: 90vh;
+                .popular-btn {
+                    .learn-more {
+                        position: absolute;
+                        left: 76%;
+                    }
+                }
+                .product-small {
+                    height: 100%;
+                    img {
+                        width: 690px;
+                        height: 85%;
+    
+                    }
+                }
+
+            }
+        }
+        .footer-container{
+            .menu-section{
+                display: flex;
+                margin-left: 10px; 
+                padding: 40px;
+        
+            }
+        
+            .menu{
+                width: 100%;
+                ul li {
+                    span{
+                        display: none;
+                    }
+                }  
+                
+            }
+
+            .men {
+                margin-left: -420px;
+            }
+
+            .languages-section{
+                height: 6vh;
+            }
+
+            .footer-section{
+                .footer-left{
+                    margin-left: -50px;
+                }
+
+                .footer-right{
+                    margin-right: -50px;
+                }
+            }
+        
+        }
+
+
+    }
+
 }
