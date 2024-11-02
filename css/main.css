@@ -682,12 +682,9 @@ main button {
   margin-top: 50px;
   margin-bottom: 10px;
   border: solid;
-<<<<<<< HEAD
 }
 .map iframe {
   width: 100%;
-=======
->>>>>>> channak
 }
 
 .social {
@@ -710,7 +707,6 @@ main button {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 h2 {
   text-align: center;
   font-size: 30px;
@@ -718,14 +714,10 @@ h2 {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { /* Tablet */
-=======
-@media (max-width: 768px) { /* Tablet */
->>>>>>> channak
   main {
     flex-direction: column;
     padding: 10px;
   }
-<<<<<<< HEAD
   h1 {
     font-size: 30px;
   }
@@ -907,10 +899,6 @@ h2 {
     margin-right: 1px;
   }
 }
-=======
-}
-@media (max-width: 480px) { /* Mobile */ }
->>>>>>> channak
 .footer-container {
   width: 100%;
 }
