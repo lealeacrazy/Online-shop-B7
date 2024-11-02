@@ -383,6 +383,215 @@
   color: rgba(128, 128, 128, 0.926);
 }
 
+.product-card {
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+.product-card img {
+  width: 200px;
+  height: 22vh;
+}
+
+.popular-bag {
+  padding: 20px;
+  width: 100%;
+  margin-left: 50px;
+  margin-top: -15px;
+}
+.popular-bag .product-large {
+  display: none;
+}
+.popular-bag .product-popular {
+  width: 100%;
+  height: 90vh;
+}
+.popular-bag .product-popular .popular-btn .learn-more {
+  position: absolute;
+  left: 76%;
+}
+.popular-bag .product-popular .product-small {
+  height: 100%;
+}
+.popular-bag .product-popular .product-small img {
+  width: 690px;
+  height: 85%;
+}
+
+.footer-container .menu-section {
+  display: flex;
+  margin-left: 10px;
+  padding: 40px;
+}
+.footer-container .menu {
+  width: 100%;
+}
+.footer-container .menu ul li span {
+  display: none;
+}
+.footer-container .men {
+  margin-left: -420px;
+}
+.footer-container .languages-section {
+  height: 6vh;
+}
+.footer-container .footer-section .footer-left {
+  margin-left: -50px;
+}
+.footer-container .footer-section .footer-right {
+  margin-right: -50px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    width: 100%;
+    background: #FF98B2;
+    height: 12vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+  }
+  .header .nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .header .nav-bar span {
+    display: flex;
+    margin-left: 70%;
+  }
+  .header .nav-bar .logo-container {
+    width: 10%;
+    background: black;
+    margin-right: 40px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .nav-bar .logo-container h2 {
+    display: none;
+  }
+  .header .nav-bar .logo-container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .nav-bar .logo-container .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .header .nav-menu {
+    display: none;
+  }
+  .container {
+    height: 34vh;
+  }
+  .container .bags {
+    position: absolute;
+    top: 6%;
+    left: 4%;
+  }
+  .container .bags .bags-text {
+    width: 300px;
+  }
+  .container .bags .bags-text h1 {
+    font-size: 12px;
+  }
+  .container .bags .bags-text p {
+    font-size: 4px;
+  }
+  .container .buttons {
+    margin-top: 20px;
+  }
+  .container .buttons .learn-more {
+    background: #F70F68;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+  .container .buttons .get-start {
+    padding: 2px 18px;
+    font-size: 10px;
+  }
+  .bag-product h1 {
+    font-size: 16px;
+  }
+  .bag-product p {
+    font-size: 10px;
+  }
+  .product-bag {
+    padding: 0;
+    width: 100%;
+  }
+  .product-bag .product-card {
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+  }
+  .product-bag .product-card .group_information {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .product-bag .product-card .group_information .product-btn {
+    padding: 4px 20px;
+  }
+  .popular-bag {
+    padding: 20px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -15px;
+  }
+  .popular-bag .product-large {
+    display: none;
+  }
+  .popular-bag .product-popular {
+    width: 100%;
+    height: 90vh;
+  }
+  .popular-bag .product-popular .popular-btn .learn-more {
+    position: absolute;
+    left: 76%;
+  }
+  .popular-bag .product-popular .product-small {
+    height: 100%;
+  }
+  .popular-bag .product-popular .product-small img {
+    width: 690px;
+    height: 85%;
+  }
+  .footer-container .menu-section {
+    display: flex;
+    margin-left: 10px;
+    padding: 40px;
+  }
+  .footer-container .menu {
+    width: 100%;
+  }
+  .footer-container .menu ul li span {
+    display: none;
+  }
+  .footer-container .men {
+    margin-left: -420px;
+  }
+  .footer-container .languages-section {
+    height: 6vh;
+  }
+  .footer-container .footer-section .footer-left {
+    margin-left: -50px;
+  }
+  .footer-container .footer-section .footer-right {
+    margin-right: -50px;
+  }
+}
 .container {
   width: 100%;
   background-image: url(../images/bag/background.webp);
@@ -574,6 +783,9 @@
   .container .bags .bags-text p {
     font-size: 12px;
   }
+  .container .bags h2 {
+    font-size: 12px;
+  }
   .container .buttons {
     margin-top: 20px;
   }
@@ -589,238 +801,31 @@
   .header {
     height: 6vh;
   }
-  .header .nav-menu ul {
-    position: relative;
-    bottom: 30%;
-    margin-right: -58px;
-  }
   .header .nav-menu ul li {
     display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
   }
   .header .nav-menu ul li a {
-    font-size: 16px;
+    font-size: 10px;
+    margin-right: 1px;
   }
   .header .logo-container img {
     width: 50px;
     height: 50px;
     margin-left: -50px;
   }
-  .header .logo-container h2 {
-    display: none;
+  .header .logo-container h4 {
+    font-size: 15px;
   }
-  .rows P {
-    margin-left: 9%;
-  }
-  .rows .row {
-    width: 82%;
-  }
-  .product-card {
-    width: 100%;
-    max-width: 250px;
-    box-sizing: border-box;
-  }
-  .product-card img {
-    width: 200px;
-    height: 22vh;
-  }
-  .popular-bag {
-    padding: 20px;
-    width: 100%;
-    margin-left: 50px;
-    margin-top: -15px;
-  }
-  .popular-bag .product-large {
-    display: none;
-  }
-  .popular-bag .product-popular {
-    width: 100%;
-    height: 90vh;
-  }
-  .popular-bag .product-popular .popular-btn .learn-more {
-    position: absolute;
-    left: 76%;
-  }
-  .popular-bag .product-popular .product-small {
-    height: 100%;
-  }
-  .popular-bag .product-popular .product-small img {
-    width: 690px;
-    height: 85%;
-  }
-  .footer-container .menu-section {
-    display: flex;
-    margin-left: 10px;
-    padding: 40px;
-  }
-  .footer-container .menu {
-    width: 100%;
-  }
-  .footer-container .menu ul li span {
-    display: none;
-  }
-  .footer-container .men {
-    margin-left: -420px;
-  }
-  .footer-container .languages-section {
-    height: 6vh;
-  }
-  .footer-container .footer-section .footer-left {
-    margin-left: -50px;
-  }
-  .footer-container .footer-section .footer-right {
-    margin-right: -50px;
+  .header .logo-container p {
+    font-size: 15px;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  .header {
-    width: 100%;
-    background: #FF98B2;
-    height: 12vh;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6vh;
-  }
-  .header .nav-bar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .header .nav-bar span {
-    display: flex;
-    margin-left: 70%;
-  }
-  .header .nav-bar .logo-container {
-    width: 10%;
-    background: black;
-    margin-right: 40px;
-    position: absolute;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .header .nav-bar .logo-container h2 {
-    display: none;
-  }
-  .header .nav-bar .logo-container .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .header .nav-bar .logo-container .logo img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  .header .nav-menu {
-    display: none;
-  }
-  .container {
-    height: 34vh;
-  }
-  .container .bags {
-    position: absolute;
-    top: 6%;
-    left: 4%;
-  }
-  .container .bags .bags-text {
-    width: 300px;
-  }
-  .container .bags .bags-text h1 {
-    font-size: 12px;
-  }
-  .container .bags .bags-text p {
-    font-size: 4px;
-  }
-  .container .buttons {
-    margin-top: 20px;
-  }
-  .container .buttons .learn-more {
-    background: #F70F68;
-    padding: 2px;
-    color: white;
-    text-align: center;
-    font-size: 10px;
-  }
-  .container .buttons .get-start {
-    padding: 2px 18px;
-    font-size: 10px;
-  }
-  .bag-product h1 {
-    font-size: 16px;
-  }
-  .bag-product p {
-    font-size: 10px;
-  }
-  .product-bag {
-    padding: 0;
-    width: 100%;
-  }
-  .product-bag .product-card {
-    display: flex;
-    width: 90%;
-    max-width: 90%;
-  }
-  .product-bag .product-card .group_information {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .product-bag .product-card .group_information .product-btn {
-    padding: 4px 20px;
-  }
-  .popular-bag {
-    padding: 20px;
-    width: 100%;
-    margin-left: 50px;
-    margin-top: -15px;
-  }
-  .popular-bag .product-large {
-    display: none;
-  }
-  .popular-bag .product-popular {
-    width: 100%;
-    height: 90vh;
-  }
-  .popular-bag .product-popular .popular-btn .learn-more {
-    position: absolute;
-    left: 76%;
-  }
-  .popular-bag .product-popular .product-small {
-    height: 100%;
-  }
-  .popular-bag .product-popular .product-small img {
-    width: 690px;
-    height: 85%;
-  }
-  .footer-container .menu-section {
-    display: flex;
-    margin-left: 10px;
-    padding: 40px;
-  }
-  .footer-container .menu {
-    width: 100%;
-  }
-  .footer-container .menu ul li span {
-    display: none;
-  }
-  .footer-container .men {
-    margin-left: -420px;
-  }
-  .footer-container .languages-section {
-    height: 6vh;
-  }
-  .footer-container .footer-section .footer-left {
-    margin-left: -50px;
-  }
-  .footer-container .footer-section .footer-right {
-    margin-right: -50px;
-  }
+.row {
+  width: 82%;
 }
+
 .header {
   width: 100%;
   background: #FF98B2;
@@ -1138,7 +1143,7 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
   }
   .map {
@@ -1148,12 +1153,15 @@ h2 {
     flex-direction: column;
     padding: 10px;
   }
+  .nav-bar {
+    margin-left: -10px;
+  }
   .nav-bar .logo-container {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .nav-bar .logo-container .logo img {
-    width: 45px;
-    height: 10vh;
+    width: 30px;
+    height: 7vh;
   }
   .nav-bar .logo-container h2 {
     margin-top: 25px;
@@ -1254,6 +1262,9 @@ h2 {
   }
   .footer-container .menu-section .men1 {
     margin-right: 1px;
+  }
+  .footer-container p {
+    font-size: 15px;
   }
 }
 .footer-container {
