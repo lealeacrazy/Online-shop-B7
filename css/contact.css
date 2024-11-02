@@ -10,6 +10,9 @@
   display: flex;
   justify-content: space-between;
 }
+.header .nav-bar span {
+  display: none;
+}
 .header .logo-container {
   display: flex;
   margin-left: 90px;
@@ -433,7 +436,11 @@ h2 {
   .footer-container .menu-section .men1 {
     margin-right: 1px;
   }
+<<<<<<< HEAD
   .footer-container p {
     font-size: 15px;
   }
 }/*# sourceMappingURL=contact.css.map */
+=======
+}
+>>>>>>> sreyka

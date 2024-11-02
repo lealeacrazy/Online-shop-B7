@@ -12,6 +12,9 @@
   display: flex;
   justify-content: space-between;
 }
+.header .nav-bar span {
+  display: none;
+}
 .header .logo-container {
   display: flex;
   margin-left: 90px;
@@ -325,6 +328,7 @@
   border: none;
   background-color: #89DCFE;
   cursor: pointer;
+<<<<<<< HEAD
   border-radius: 10px;
 }
 
@@ -644,3 +648,6 @@
     gap: 28px;
   }
 }/*# sourceMappingURL=home.css.map */
+=======
+}
+>>>>>>> sreyka
