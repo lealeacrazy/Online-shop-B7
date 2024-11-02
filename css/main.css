@@ -5,6 +5,9 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -18,14 +21,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -35,7 +38,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -45,10 +48,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -60,6 +59,9 @@
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -73,14 +75,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -90,7 +92,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -100,10 +102,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -132,6 +130,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -164,6 +163,7 @@
   border: 2px solid #F70F68;
   padding: 11px 24px;
   color: white;
+  margin-left: 12px;
 }
 .buttons a:hover {
   cursor: pointer;
@@ -336,11 +336,6 @@
   color: gray;
 }
 
-#active {
-  transition: all 0.3s ease;
-  background: #ff8add;
-}
-
 .container {
   padding: 10%;
   background-image: url(../images/bag/background.webp);
@@ -384,22 +379,23 @@
 .product-popular {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   border-radius: 10px;
   overflow: hidden;
   justify-content: space-between;
+  width: 100%;
 }
 .product-popular .product-small {
-  flex: 1;
-  max-width: 35%;
+  flex: 2;
+  max-width: 40%;
 }
 .product-popular .product-large {
-  flex: 2;
-  max-width: 60%;
+  flex: 4;
+  width: 160%;
 }
 .product-popular .product-small img, .product-popular .product-large img {
   width: 100%;
-  height: auto;
+  height: 78vh;
   border-radius: 8px;
 }
 .product-popular .product-large img {
@@ -435,9 +431,14 @@
 .rows P {
   margin-left: 113px;
   font-size: 28px;
+  color: gray;
+}
+.rows P span {
+  margin-left: 70%;
+  font-size: 18px;
 }
 .rows .row {
-  border-bottom: 5px solid rgba(0, 0, 0, 0.508);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.508);
   width: 85%;
   margin: auto;
 }
@@ -461,9 +462,39 @@
   gap: 8px;
 }
 
+.shop-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+  color: #F70F68;
+  gap: 8px;
+}
+.shop-more a {
+  color: #F70F68;
+  font-size: 20px;
+}
+
+.container-clothes {
+  padding: 10%;
+  background-image: url(../images/clothes/background.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.container-shoes {
+  padding: 10%;
+  background-image: url(../images/shoes/background.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+
 .header {
   width: 100%;
   background: #FF98B2;
+  height: 12vh;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
@@ -477,14 +508,14 @@
 }
 
 .logo-container img {
-  width: 80px;
+  width: 70px;
   border-radius: 100%;
   margin: 8px;
-  margin-top: 13px;
+  margin-top: 9px;
 }
 
 .logo-container h2 {
-  margin-top: 32px;
+  margin-top: 26px;
   color: white;
 }
 
@@ -494,7 +525,7 @@
 .nav-menu ul li {
   text-decoration: none;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-right: 90px;
 }
 .nav-menu ul li a {
@@ -504,10 +535,6 @@
   font-size: 20px;
   margin: 10px;
   padding: 12px 24px;
-}
-.nav-menu ul li a:hover {
-  cursor: pointer;
-  background: #ff8add;
 }
 .nav-menu #sign {
   background: #F70F68;
@@ -683,11 +710,14 @@ main button {
   margin-bottom: 10px;
   border: solid;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .map iframe {
   width: 100%;
 =======
 >>>>>>> channak
+=======
+>>>>>>> sreyka
 }
 
 .social {
@@ -711,6 +741,7 @@ main button {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 {
   text-align: center;
   font-size: 30px;
@@ -721,10 +752,14 @@ h2 {
 =======
 @media (max-width: 768px) { /* Tablet */
 >>>>>>> channak
+=======
+@media (max-width: 768px) { /* Tablet */
+>>>>>>> sreyka
   main {
     flex-direction: column;
     padding: 10px;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
   h1 {
     font-size: 30px;
@@ -789,7 +824,7 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 480px) { /* Mobile */
   h2 {
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 10px;
   }
   .map {
@@ -882,8 +917,8 @@ h2 {
     padding: 10px;
   }
   aside .social .social-media img {
-    width: 40px;
-    height: 10vh;
+    width: 30px;
+    height: 8vh;
   }
   aside .social p {
     font-size: 10px;
@@ -911,6 +946,10 @@ h2 {
 }
 @media (max-width: 480px) { /* Mobile */ }
 >>>>>>> channak
+=======
+}
+@media (max-width: 480px) { /* Mobile */ }
+>>>>>>> sreyka
 .footer-container {
   width: 100%;
 }
@@ -992,4 +1031,13 @@ h2 {
   font-family: "Poppins", serif;
   text-decoration: none;
   list-style: none;
+<<<<<<< HEAD
 }/*# sourceMappingURL=main.css.map */
+=======
+}
+
+.nav-menu a:hover {
+  transition: all 0.3s ease;
+  background: rgba(240, 24, 150, 0.818);
+}
+>>>>>>> sreyka
