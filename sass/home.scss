@@ -356,6 +356,180 @@
     }
 }
 
-@import "./componet/responesive";
+
+
+@media (max-width:480px){
+    body {
+        overflow-x: hidden;
+    }
+    .header{
+        .nav-bar{
+            height: 70px;
+            .logo-container{
+                margin-left: 1px;
+                .logo{
+                    img{
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 100px;
+                    }
+                }
+                h2{
+                    font-size: 12px;
+                }
+
+            }
+            .nav-menu{
+                ul li{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 10px;
+                    a{
+                        font-size: 10px;
+                        margin-right: 1px;
+                        padding: 0px 10px;
+                    }
+                }
+            }
+        }
+    }
+    .home-container{
+        background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding: 0px;
+        .text-home-container{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 18px;
+                padding: 48px 0px 0px 0px;
+            }
+            p{
+                margin: auto;
+                width: 70%;
+                font-size: 15px;
+            }
+        }
+    }
+    .text-home{
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .bag-home{
+        flex-direction: column;
+        .img-bag img{
+            width: 100%;
+            height: 600px;
+            padding: 0px 28px;
+        }
+        .text-bag-home{
+            text-align: center;
+            margin-right: 0%;
+            margin-top: 28px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .discount-home{
+        margin-top: 48px;
+        .dis-home{
+            padding: 10px;
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        
+    }
+    .clothe-home{
+        flex-direction: column-reverse;
+        .text-clothe-home{
+            margin-left: 0px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .shoes-home{
+        flex-direction: column;
+        img {
+            width: 100%;
+            padding: 0px 28px;
+        }
+        .text-shoes-home{
+            margin-right: 0px;
+            margin-top: 28px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .feedback-home{
+        .text-fb-home{
+            h2{
+                font-size: 18px;
+            }
+            font-size: 15px;
+        }
+        .cards-home{
+            .card-home{
+                width: 45%;
+                .pf-card-home{
+                    .img-pf-card img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .name-pf-home{
+                        h3{
+                            font-size: 15px;
+                        }
+                        .icon-card-home{
+                            font-size: 10px;
+                            margin-top: 1px;
+                        }
+                    }
+                }
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: auto;
+        .menu-section {
+            margin-left: 0px;
+            gap: 28px;
+        }
+    }
+    
+}
 
 
