@@ -129,7 +129,7 @@
   background-size: cover;
   height: 570px;
   padding: 100px;
-  color: #fff;
+  color: gray;
 }
 .home-container .text-home-container p {
   width: 580px;
@@ -151,7 +151,7 @@
 .home-container .btn-home .btn2-home {
   padding: 8px;
   background-color: #F9C6C5;
-  border: blue 2px solid;
+  border: #F70F68 2px solid;
   color: #000;
   width: 100px;
   font-size: 14px;
@@ -327,36 +327,50 @@
   border-radius: 10px;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-  .header .nav-bar {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
     width: 100%;
+    background: #FF98B2;
+    height: 8vh;
+    position: sticky;
+    top: 0;
   }
-  .header .nav-bar .logo-container {
-    margin-top: 20px;
+  .header .logo-container .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 16px;
   }
-  .header .nav-bar .logo-container .logo img {
-    width: 50px;
-    height: 10vh;
+  .header .logo-container h2 {
+    display: none;
   }
-  .header .nav-bar .nav-menu ul {
-    margin-top: 40px;
+  .header .nav-menu {
+    width: 100%;
+    margin-left: 2%;
   }
-  .header .nav-bar .nav-menu ul li a {
-    font-size: 15px;
-    padding: 1px;
+  .header .nav-menu ul li {
+    gap: -40px;
+  }
+  .header .nav-menu ul li a {
+    font-size: 14px;
   }
   .home-container {
     background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
     background-position: bottom;
     background-size: cover;
-    height: 400px;
+    height: 47vh;
     padding: 50px;
   }
+  .home-container .text-home-container {
+    margin-top: 12%;
+    margin-left: 6%;
+  }
   .home-container .text-home-container h1 {
-    font-size: 20px;
+    font-size: 50px;
   }
   .home-container .text-home-container p {
-    font-size: 18px;
+    font-size: 12px;
+    width: 350px;
   }
   .text-home h1 {
     font-size: 20px;
@@ -365,17 +379,19 @@
     font-size: 18px;
   }
   .bag-home .img-bag img {
-    width: 270px;
-    height: 60vh;
+    width: 500px;
+    height: 42vh;
   }
   .bag-home .text-bag-home {
-    margin-top: 40px;
+    margin-top: 85px;
+    margin-left: 45px;
   }
   .bag-home .text-bag-home h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
   .bag-home .text-bag-home p {
     font-size: 18px;
+    width: 300px;
   }
   .discount-home .dis-home {
     padding: 10px;
@@ -390,25 +406,35 @@
     display: flex;
     justify-content: space-between;
   }
+  .clothe-home .text-clothe-home {
+    margin-top: 60px;
+    margin-left: 45px;
+  }
   .clothe-home .text-clothe-home h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
   .clothe-home .text-clothe-home p {
     font-size: 18px;
+    width: 300px;
   }
   .clothe-home .clothe-home img {
-    width: 270px;
-    height: 60vh;
+    width: 500px;
+    height: 42vh;
   }
   .shoes-home .shoe-home img {
-    width: 270px;
-    height: 60vh;
+    width: 500px;
+    height: 42vh;
+  }
+  .shoes-home .text-shoes-home {
+    margin-top: 150px;
+    margin-left: 45px;
   }
   .shoes-home .text-shoes-home h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
   .shoes-home .text-shoes-home p {
     font-size: 18px;
+    width: 300px;
   }
   .feedback-home .text-fb-home h2 {
     font-size: 20px;
@@ -421,7 +447,6 @@
   }
   .feedback-home .cards-home .card-home .pf-card-home .img-pf-card img {
     width: 50px;
-    height: 12vh;
   }
   .feedback-home .cards-home .card-home .pf-card-home .name-pf-home h3 {
     font-size: 18px;
@@ -439,27 +464,38 @@
   .view-footer-home h2 {
     font-size: 20px;
   }
-  .footer-container .menu-section .menu .h3-menu {
-    font-size: 15px;
+  .footer-container .menu {
+    margin-left: -45px;
+    margin-top: 50px;
+  }
+  .footer-container .languages-section {
+    height: 50px;
+  }
+  .footer-container .footer-section .footer-left {
+    margin-left: -50px;
+  }
+  .footer-container .footer-section .footer-right {
+    margin-right: -50px;
+  }
+  .footer-container .mobile-phone {
+    display: none;
   }
 }
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
-  .header .nav-bar {
-    height: 70px;
-  }
   .header .nav-bar .logo-container {
     margin-left: 1px;
   }
   .header .nav-bar .logo-container .logo img {
+    margin-top: 25px;
     width: 45px;
     height: 45px;
     border-radius: 100px;
   }
   .header .nav-bar .logo-container h2 {
-    font-size: 12px;
+    display: none;
   }
   .header .nav-bar .nav-menu ul li {
     display: flex;
@@ -467,7 +503,7 @@
     margin-right: 10px;
   }
   .header .nav-bar .nav-menu ul li a {
-    font-size: 10px;
+    font-size: 16px;
     margin-right: 1px;
     padding: 0px 10px;
   }
@@ -587,11 +623,6 @@
     font-size: 15px;
   }
   .footer-container {
-    width: 90%;
-    margin: auto;
-  }
-  .footer-container .menu-section {
-    margin-left: 0px;
-    gap: 28px;
+    display: none;
   }
 }

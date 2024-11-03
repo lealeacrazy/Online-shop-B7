@@ -5,365 +5,334 @@
 
 
 
-@mixin responsive-sell {
+// @mixin responsive-sell {
 
-    // Sell-responsive for tablet//
+    // // Sell-responsive for tablet//
 
-    @media (min-width: 768px) and (max-width: 1024px){
+    // @media (min-width: 768px) and (max-width: 1024px){
     
-        .header{
-            width: 100%;
-            background: $nav-bar;
-            height: 7vh;
-            position: sticky;
-            top: 0;
-            .logo-container{
-                .logo img{
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 100%;
-                    margin-top: 16px;
-                }
-                h2{
-                    display: none;
-                }
-            }
-            .nav-menu{
-                width: 100%;
-                ul li{
-                    gap: -40px;
-                    a{
-                        font-size: 13px;
-                    }
-                }
-            }
+    //     .header{
+    //         width: 100%;
+    //         background: $nav-bar;
+    //         height: 7vh;
+    //         position: sticky;
+    //         top: 0;
+    //         .logo-container{
+    //             .logo img{
+    //                 width: 50px;
+    //                 height: 50px;
+    //                 border-radius: 100%;
+    //                 margin-top: 16px;
+    //             }
+    //             h2{
+    //                 display: none;
+    //             }
+    //         }
+    //         .nav-menu{
+    //             width: 100%;
+    //             ul li{
+    //                 gap: -40px;
+    //                 a{
+    //                     font-size: 13px;
+    //                 }
+    //             }
+    //         }
         
-        }
+    //     }
 
-        .container-bag{
-            height: 47vh;
-            .bags{
-                .bags-text{
-                    margin-left: 10%;
-                    h1{
-                        font-size: 50px;
-                    }
-                    p{
-                        font-size: 12px;
-                        width: 350px;
-                    }
-                }
-            }
-        }
-        .container-clothes{
-            height: 47vh;
-            .bags{
-                .bags-text{
-                    margin-left: 10%;
-                    margin-top: 12%;
-                    h1{
-                        font-size: 50px;
-                    }
-                    p{
-                        font-size: 12px;
-                        width: 350px;
-                    }
-                }
-            }
-        }
-        .container-shoes{
-            height: 47vh;
-            .bags{
-                .bags-text{
-                    margin-left: 10%;
-                    margin-top: 12%;
-                    h1{
-                        font-size: 50px;
-                    }
-                    p{
-                        font-size: 12px;
-                        width: 350px;
-                    }
-                }
-            }
-        }
+    //     .container-bag{
+    //         height: 47vh;
+    //         .bags{
+    //             .bags-text{
+    //                 margin-left: 10%;
+    //                 h1{
+    //                     font-size: 50px;
+    //                 }
+    //                 p{
+    //                     font-size: 12px;
+    //                     width: 350px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     .container-clothes{
+    //         height: 47vh;
+    //         .bags{
+    //             .bags-text{
+    //                 margin-left: 10%;
+    //                 margin-top: 12%;
+    //                 h1{
+    //                     font-size: 50px;
+    //                 }
+    //                 p{
+    //                     font-size: 12px;
+    //                     width: 350px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     .container-shoes{
+    //         height: 47vh;
+    //         .bags{
+    //             .bags-text{
+    //                 margin-left: 10%;
+    //                 margin-top: 12%;
+    //                 h1{
+    //                     font-size: 50px;
+    //                 }
+    //                 p{
+    //                     font-size: 12px;
+    //                     width: 350px;
+    //                 }
+    //             }
+    //         }
+    //     }
 
-        .rows{
-            p{
-                margin-left: 55px;
-            }
-        }
+    //     .rows{
+    //         p{
+    //             margin-left: 55px;
+    //         }
+    //     }
 
-        .product-bag{
-            .product-card{
-                width: 30%;
-            }
-        }
+    //     .product-bag{
+    //         .product-card{
+    //             width: 30%;
+    //         }
+    //     }
 
-        .popular-bag{
-            .product-popular{
+    //     .popular-bag{
+    //         .product-popular{
                
-                width: 100%;
-                .product-small{
-                   width: 100%;
+    //             width: 100%;
+    //             .product-small{
+    //                width: 100%;
                    
-                    img{
-                        width: 300%;
-                    }
-                    .buttons{
-                        position: relative;
-                        left: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        p{
-                            display: none;
-                        }
+    //                 img{
+    //                     width: 300%;
+    //                 }
+    //                 .buttons{
+    //                     position: relative;
+    //                     left: 100%;
+    //                     display: flex;
+    //                     justify-content: space-between;
+    //                     p{
+    //                         display: none;
+    //                     }
                        
-                    }
-                }
-                .product-large{
-                    display: none;
-                }
-            }
-        }
+    //                 }
+    //             }
+    //             .product-large{
+    //                 display: none;
+    //             }
+    //         }
+    //     }
 
-        .footer-container{
-            .menu{
-                margin-left: -45px;
-                margin-top: 50px;
-            }
+    //     .footer-container{
+    //         .menu{
+    //             margin-left: -45px;
+    //             margin-top: 50px;
+    //         }
 
-            .languages-section{
-                height: 50px;
-            }
+    //         .languages-section{
+    //             height: 50px;
+    //         }
 
-            .footer-section{
-                .footer-left{
-                    margin-left: -50px;
-                }
-                .footer-right{
-                    margin-right: -50px;
-                }
-            }
+    //         .footer-section{
+    //             .footer-left{
+    //                 margin-left: -50px;
+    //             }
+    //             .footer-right{
+    //                 margin-right: -50px;
+    //             }
+    //         }
 
-            .mobile-phone{
-                display: none;
-            }
-        }
-    }
+    //         .mobile-phone{
+    //             display: none;
+    //         }
+    //     }
+    // }
 
     // Sell-Responsive for mobile phone //
-
-    @media (min-width: 320px) and (max-width: 480px){
     
-        .header{
-            width: 100%;
-            background: $nav-bar;
-            height: 7vh;
-            position: sticky;
-            top: 0;
-            .logo-container{
-                .logo img{
-                    width: 35px;
-                    height: 35px;
-                    border-radius: 100%;
-                    margin-top: 5px;
-                    margin-left: -90%;
-                }
-                h2{
-                    margin-left: -22%;
-                    margin-top: 8%;
-                    font-size: 15px;
-                }
-            }
-            .nav-menu{
-                ul li{
-                    display: none;
-                }
-            }
-        
-        }
-    }
-    
-    @media (min-width: 320px) and (max-width: 480px){
-        .header{
-            width: 100%;
-            background: $nav-bar;
-            height: 12vh;
-            position: sticky;
-            top: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 6vh;
+//     @media (min-width: 320px) and (max-width: 480px){
+//         .header{
+//             width: 100%;
+//             background: $nav-bar;
+//             height: 12vh;
+//             position: sticky;
+//             top: 0;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             height: 6vh;
             
-            .nav-bar{
-                width: 100%;
-                display: flex;
+//             .nav-bar{
+//                 width: 100%;
+//                 display: flex;
                 
-                align-items: center;
-                span {
-                    display:flex ;
-                    margin-left: 70%;
-                }
-                .logo-container {
-                    width: 10%;
-                    background: black;
-                    margin-right: 40px;
-                    h2 {
-                        display: none;
-                    }
-                }
-        .container-bag{
-            height: 32vh;
-            .bags{
-                .bags-text{
-                    margin-left: 50px;
-                    margin-top: -18px;
-                    h1{
-                        font-size: 30px;
-                        margin-top: 10%;
-                    }
-                    p{
-                        font-size: 8px;
-                        width: 250px;
-                    }
-                    .buttons{
-                        margin-top: 8px;
-                        .learn-more{
-                            padding: 6px 12px;
-                            font-size: 10px;
-                        }
-                        .get-start{
-                            padding: 5px 14px;
-                            font-size: 10px;
-                        }
-                    }
-                }
-            }
-        }
-        .container-clothes{
-            height: 32vh;
-            .bags{
-                .bags-text{
-                    margin-left: 50px;
-                    margin-top: -8px;
-                    h1{
-                        font-size: 30px;
-                    }
-                    p{
-                        font-size: 8px;
-                        width: 250px;
-                    }
-                    .buttons{
-                        margin-top: 8px;
-                        .learn-more{
-                            padding: 6px 12px;
-                            font-size: 10px;
-                        }
-                        .get-start{
-                            padding: 5px 14px;
-                            font-size: 10px;
-                        }
-                    }
-                }
-            }
-        }
-        .container-shoes{
-            height: 32vh;
-            .bags{
-                .bags-text{
-                    margin-left: 50px;
-                    margin-top: -8px;
-                    h1{
-                        font-size: 30px;
-                    }
-                    p{
-                        font-size: 8px;
-                        width: 250px;
-                    }
-                    .buttons{
-                        margin-top: 8px;
-                        .learn-more{
-                            padding: 6px 12px;
-                            font-size: 10px;
-                        }
-                        .get-start{
-                            padding: 5px 14px;
-                            font-size: 10px;
-                        }
-                    }
-                }
-            }
-        }
+//                 align-items: center;
+//                 span {
+//                     display:flex ;
+//                     margin-left: 70%;
+//                 }
+//                 .logo-container {
+//                     width: 10%;
+//                     background: black;
+//                     margin-right: 40px;
+//                     h2 {
+//                         display: none;
+//                     }
+//                 }
+//         .container-bag{
+//             height: 32vh;
+//             .bags{
+//                 .bags-text{
+//                     margin-left: 50px;
+//                     margin-top: -18px;
+//                     h1{
+//                         font-size: 30px;
+//                         margin-top: 10%;
+//                     }
+//                     p{
+//                         font-size: 8px;
+//                         width: 250px;
+//                     }
+//                     .buttons{
+//                         margin-top: 8px;
+//                         .learn-more{
+//                             padding: 6px 12px;
+//                             font-size: 10px;
+//                         }
+//                         .get-start{
+//                             padding: 5px 14px;
+//                             font-size: 10px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .container-clothes{
+//             height: 32vh;
+//             .bags{
+//                 .bags-text{
+//                     margin-left: 50px;
+//                     margin-top: -8px;
+//                     h1{
+//                         font-size: 30px;
+//                     }
+//                     p{
+//                         font-size: 8px;
+//                         width: 250px;
+//                     }
+//                     .buttons{
+//                         margin-top: 8px;
+//                         .learn-more{
+//                             padding: 6px 12px;
+//                             font-size: 10px;
+//                         }
+//                         .get-start{
+//                             padding: 5px 14px;
+//                             font-size: 10px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .container-shoes{
+//             height: 32vh;
+//             .bags{
+//                 .bags-text{
+//                     margin-left: 50px;
+//                     margin-top: -8px;
+//                     h1{
+//                         font-size: 30px;
+//                     }
+//                     p{
+//                         font-size: 8px;
+//                         width: 250px;
+//                     }
+//                     .buttons{
+//                         margin-top: 8px;
+//                         .learn-more{
+//                             padding: 6px 12px;
+//                             font-size: 10px;
+//                         }
+//                         .get-start{
+//                             padding: 5px 14px;
+//                             font-size: 10px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
 
-        .bag-product{
-            h1{
-                font-size: 25px;
-            }
-            p{
-                font-size: 10px;
-            }
-        }
+//         .bag-product{
+//             h1{
+//                 font-size: 25px;
+//             }
+//             p{
+//                 font-size: 10px;
+//             }
+//         }
 
-        .rows{
-            p{
-                margin-left: 15px;
-                font-size: 20px;
-            }
-            .row{
-                width: 95%;
-            }
-        }
+//         .rows{
+//             p{
+//                 margin-left: 15px;
+//                 font-size: 20px;
+//             }
+//             .row{
+//                 width: 95%;
+//             }
+//         }
 
-        .product-bag{
-            width: 100%;
-            padding: 12px;
-            gap: 20px;
-            margin-top: 30px;
+        // .product-bag{
+        //     width: 100%;
+        //     padding: 12px;
+        //     gap: 20px;
+        //     margin-top: 30px;
 
-            .product-card {
-                display: flex;
-                width: 20%;
-                max-width: 1000px;
-                height: 25vh;
-                flex: 1 1 900px; 
+            // .product-card {
+            //     display: flex;
+            //     width: 20%;
+            //     max-width: 1000px;
+            //     height: 25vh;
+            //     flex: 1 1 900px; 
     
-                img {
-                    width: 35%;
-                    height: 18vh;
-                    margin-top: 10px;
-                }
+                // img {
+                //     width: 35%;
+                //     height: 18vh;
+                //     margin-top: 10px;
+                // }
 
-                .group_information{
-                    margin-left: 30px;
-                    margin-top: -25px;
+                // .group_information{
+                //     margin-left: 30px;
+                //     margin-top: -25px;
 
-                    .product-btn{
-                        padding: 8px 24px;
-                    }
-                }
-            }
+                //     .product-btn{
+                //         padding: 8px 24px;
+                //     }
+                // }
+//             }
 
-            .shop-more{
-                margin-top: 10px;
-            }
-        }
+            // .shop-more{
+            //     margin-top: 10px;
+            // }
+//         }
 
-        .popular-bag{         
-            .product-popular{  
-                display: none;            
-            }
-        }
+        // .popular-bag{         
+        //     .product-popular{  
+        //         display: none;            
+        //     }
+        // }
 
-        .div-footer{
-            display: none;
-        }
+//         .div-footer{
+//             display: none;
+//         }
 
-        .footer-container{
-            display: none;
-        }
-    }
-}
-    } 
-}
+//         .footer-container{
+//             display: none;
+//         }
+//     }
+// }
+//     } 
+// }
