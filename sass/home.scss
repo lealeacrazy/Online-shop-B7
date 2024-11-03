@@ -2,8 +2,6 @@
 @import "./componet/varaible";
 @import "./componet/footer";
 
-
-
 .home-container{
     background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
     background-position: bottom;
@@ -12,10 +10,10 @@
     padding: 100px;
     color: #fff;
     .text-home-container{
-        margin-left: 134px;
         p{
             width: 580px;
-            font-size: 24px;
+            font-size: 20px;
+            color: rgba(145, 141, 141, 0.721);
         }
     }
     .btn-home{
@@ -42,21 +40,20 @@
 }
 .text-home{
     text-align: center;
-    padding: 34px;
-    font-size: 20px;
+    margin-bottom: 24px;
 }
 .bag-home{
     display: flex;
+    justify-content: space-between;
     .img-bag img{
         width: 400px;
         height: 500px;
-        margin-left: 100px;
         margin-bottom: 24px;
     }
     .text-bag-home{
         text-align: center;
         margin-top: 100px;
-        margin-left: 120px;
+        margin-right: 90px;
         p {
             width: 550px; 
             font-size: 20px;  
@@ -86,24 +83,26 @@
 }
 .discount-home{
     display: flex;
-    padding: 50px;
+    padding: 40px;
     background-color: #EDF9FF;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 15px;
     .dis-home{
         text-align: center;
         width: 260px;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
 .clothe-home{
     display: flex;
-    margin-top: 24px;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
     .text-clothe-home{
         text-align: center;
-        margin: 90px 0px 100px 90px;
+        margin-left: 90px;
+
         p{
             width: 550px; 
             font-size: 20px;
@@ -115,63 +114,20 @@
     img{
         width: 500px;
         height: 400px;
-        margin-right: 50px;
-    }
-}
-.audiences{
-    
-    margin-top: 14px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    .text-audience{
-        text-align: center;
-        padding: 24px;
-        font-size: 18px;
-    }
-    .choose-audience{
-        display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 24px;
-        .card{
-            width: 230px;
-            margin-top: 24px;
-            margin-bottom: 24px;
-            border-radius: 10px;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-            background-color: #89DCFE;
-            img{
-                width: 100%;
-                height: 80%;
-                border-radius: 10px;
-            }
-            .shop-audience{
-                display: flex;
-                padding: 14px;
-                justify-content: space-evenly;
-                button{
-                    width: 80px;
-                    height: 30px;
-                    border-radius: 10px;
-                    border: none;
-                    background-color: #F70F68;
-                    color: #fff;
-                }
-            }
-        }
     }
 }
 .shoes-home{
     display: flex;
+    justify-content: space-between;
     img{
         width: 500px;
         height: 500px;
-        margin-left: 100px;
         margin-top: 44px;
     }
     .text-shoes-home{
         text-align: center;
         margin-top: 134px;
-        margin-left: 80px;
+        margin-right: 90px;
         p{
             width: 550px; 
             font-size: 20px;
@@ -224,7 +180,7 @@
         p{
             margin-left: 24px;
             margin-bottom: 10px;
-            font-size: 18px;
+            font-size: 20px;
         }
     }
     .card-home:hover{
@@ -241,5 +197,336 @@
         border: none;
         background-color: #89DCFE;
         cursor: pointer;
+       border-radius: 10px;
     }
+}
+@media (max-width: 1024px) and (min-width:768px){
+    .header{
+        .nav-bar{
+            width: 100%;
+            .logo-container{
+                margin-top: 20px;
+                .logo img{
+                    width: 50px;
+                    height: 10vh;
+                }
+            }
+            .nav-menu{
+                ul{
+                    margin-top: 40px;
+                    li a{
+                        font-size: 15px;
+                        padding: 1px;
+                    }
+                }
+            }
+
+        }
+        
+    }
+    .home-container{
+        background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
+        background-position: bottom;
+        background-size: cover;
+        height: 400px;
+        padding: 50px;
+        .text-home-container{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+
+    }
+    .text-home{
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .bag-home{
+        .img-bag img{
+            width: 270px;
+            height: 60vh;
+        }
+        .text-bag-home{
+            margin-top: 40px;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .discount-home{
+        .dis-home{
+            padding: 10px;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .clothe-home{
+        display: flex;
+        justify-content: space-between;
+        .text-clothe-home{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .clothe-home img{
+            width: 270px;
+            height: 60vh;
+        }
+    }
+    .shoes-home{
+        .shoe-home img{
+            width: 270px;
+            height: 60vh;
+        }
+        .text-shoes-home{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .feedback-home{
+        .text-fb-home{
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .cards-home{
+            padding: 10px;
+            .card-home{
+                .pf-card-home{
+                    .img-pf-card img{
+                        width: 50px;
+                        height: 12vh;
+                    }
+                    .name-pf-home{
+                        h3{
+                            font-size: 18px;
+                        }
+                        .icon-card-home{
+                            margin-left: -10px;
+                            margin-top: -5px;
+                        }
+                    } 
+                }
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    } 
+    .view-footer-home{
+        h2{
+            font-size: 20px;
+        }
+    }
+    .footer-container{
+        .menu-section{
+            .menu{
+                .h3-menu{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:480px){
+    body {
+        overflow-x: hidden;
+    }
+    .header{
+        .nav-bar{
+            height: 70px;
+            .logo-container{
+                margin-left: 1px;
+                .logo{
+                    img{
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 100px;
+                    }
+                }
+                h2{
+                    font-size: 12px;
+                }
+
+            }
+            .nav-menu{
+                ul li{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 10px;
+                    a{
+                        font-size: 10px;
+                        margin-right: 1px;
+                        padding: 0px 10px;
+                    }
+                }
+            }
+        }
+    }
+    .home-container{
+        background: url(../images/home/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding: 0px;
+        .text-home-container{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 18px;
+                padding: 48px 0px 0px 0px;
+            }
+            p{
+                margin: auto;
+                width: 70%;
+                font-size: 15px;
+            }
+        }
+    }
+    .text-home{
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .bag-home{
+        flex-direction: column;
+        .img-bag img{
+            width: 100%;
+            height: 600px;
+            padding: 0px 28px;
+        }
+        .text-bag-home{
+            text-align: center;
+            margin-right: 0%;
+            margin-top: 28px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .discount-home{
+        margin-top: 48px;
+        .dis-home{
+            padding: 10px;
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        
+    }
+    .clothe-home{
+        flex-direction: column-reverse;
+        .text-clothe-home{
+            margin-left: 0px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .shoes-home{
+        flex-direction: column;
+        img {
+            width: 100%;
+            padding: 0px 28px;
+        }
+        .text-shoes-home{
+            margin-right: 0px;
+            margin-top: 28px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .feedback-home{
+        .text-fb-home{
+            h2{
+                font-size: 18px;
+            }
+            font-size: 15px;
+        }
+        .cards-home{
+            .card-home{
+                width: 45%;
+                .pf-card-home{
+                    .img-pf-card img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .name-pf-home{
+                        h3{
+                            font-size: 15px;
+                        }
+                        .icon-card-home{
+                            font-size: 10px;
+                            margin-top: 1px;
+                        }
+                    }
+                }
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: auto;
+        .menu-section {
+            margin-left: 0px;
+            gap: 28px;
+        }
+    }
+    
 }

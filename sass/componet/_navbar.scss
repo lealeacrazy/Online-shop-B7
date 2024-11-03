@@ -12,6 +12,9 @@
     .nav-bar{
         display: flex;
         justify-content: space-between;
+        span {
+            display: none;
+        }
     }
     .logo-container{
         display: flex;
