@@ -3,8 +3,6 @@
   width: 100%;
   background: #FF98B2;
   height: 12vh;
-  position: sticky;
-  top: 0;
 }
 .header .nav-bar {
   display: flex;
@@ -439,4 +437,4 @@ h2 {
   .footer-container p {
     font-size: 15px;
   }
-}/*# sourceMappingURL=contact.css.map */
+}
