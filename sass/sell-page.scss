@@ -16,10 +16,12 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    margin-top: 0%;
 }
 .bags{
-    margin-left: -40px;
-    margin-top: -50px;
+    position: absolute;
+    top:26%;
+    left: 10%;
 }
 .bags-text{
     h1{
@@ -171,7 +173,8 @@
 .container-clothes{
     padding: 10%;
     background-image: url(https://shopfashionq.com/cdn/shop/files/Store_Banner_Q_1600x.jpg?v=1724783022);
-    height: 90vh;
+    height: 100vh;
+    background-position: center;
     background-size: cover;
 }
 
@@ -182,6 +185,7 @@
     padding: 10%;
     background-image: url(../images/shoes/background.jpeg);
     height: 100vh;
+    background-position: center;
     background-size: cover;
 }
 @include  responsive-sell ;
