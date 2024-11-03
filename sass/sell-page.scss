@@ -4,7 +4,7 @@
 @import "./componet/group-mixin";
 @import "./componet/card";
 @import "./componet/footer";
-@import "./componet/responesive";
+
 
 
 
@@ -18,6 +18,10 @@
     height: 100vh;
     
     .bags{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        width: 80%;
         margin-left: -60px;
         .bags-text{
             h1{
@@ -25,7 +29,7 @@
                 color: $fontcolor;
             }
             p{
-                width: 30%;
+                width: 40%;
                 color: $fontcolor;
             }
         }
@@ -214,4 +218,330 @@
         }
     }
 }
-@include  responsive-sell ;
+// @include  responsive-sell ;
+
+@import "./componet/responesive";
+
+// Sell-responsive for tablet//
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .header{
+        width: 100%;
+        background: $nav-bar;
+        height: 7vh;
+        position: sticky;
+        top: 0;
+        .logo-container{
+            .logo img{
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                margin-top: 16px;
+            }
+            h2{
+                display: none;
+            }
+        }
+        .nav-menu{
+            width: 100%;
+            ul li{
+                gap: -40px;
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    
+    }
+
+    .container-bag{
+        height: 47vh;
+        .bags{
+            .bags-text{
+                margin-left: 10%;
+                h1{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+    .container-clothes{
+        height: 47vh;
+        .bags{
+            .bags-text{
+                margin-left: 10%;
+                margin-top: 12%;
+                h1{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+    .container-shoes{
+        height: 47vh;
+        .bags{
+            .bags-text{
+                margin-left: 10%;
+                margin-top: 12%;
+                h1{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+
+    .rows{
+        p{
+            margin-left: 55px;
+        }
+    }
+
+    .product-bag{
+        .product-card{
+            width: 30%;
+        }
+    }
+
+    .popular-bag{
+        .product-popular{
+           
+            width: 100%;
+            .product-small{
+               width: 100%;
+               
+                img{
+                    width: 300%;
+                }
+                .buttons{
+                    position: relative;
+                    left: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        display: none;
+                    }
+                   
+                }
+            }
+            .product-large{
+                display: none;
+            }
+        }
+    }
+
+    .footer-container{
+        .menu{
+            margin-left: -45px;
+            margin-top: 50px;
+        }
+
+        .languages-section{
+            height: 50px;
+        }
+
+        .footer-section{
+            .footer-left{
+                margin-left: -50px;
+            }
+            .footer-right{
+                margin-right: -50px;
+            }
+        }
+
+        .mobile-phone{
+            display: none;
+        }
+    }
+}
+
+
+//mobile-phone
+
+@media (min-width: 320px) and (max-width: 760px){
+    body{
+        .header{
+            height: 9vh;
+            .nav-bar{
+                .logo-container{
+                    margin-left: 20px;
+                    .logo{
+                        img{
+                            margin-top: 20px;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                    h2{
+                        display: none;
+                    }
+    
+                }
+                .nav-menu{
+                    ul li{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                        margin-top: 10px;
+                        a{
+                            font-size: 10px;
+                            padding: 0px 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .container-bag{
+            height: 50vh;
+            .bags{
+                .bags-text{
+                    position: relative;
+                    left: 10%;
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 12px;
+                        width: 80%;
+                    }
+                    .buttons{
+                        .learn-more{
+                            font-size: 12px;
+                            padding: 10px 14px;
+                        }
+                        .get-start{
+                            font-size: 12px;
+                            padding: 9px 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .container-clothes{
+            height: 50vh;
+            .bags{
+                .bags-text{
+                    position: relative;
+                    left: 10%;
+                    margin-top: 58px;
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 12px;
+                        width: 80%;
+                    }
+                    .buttons{
+                        .learn-more{
+                            font-size: 12px;
+                            padding: 10px 14px;
+                        }
+                        .get-start{
+                            font-size: 12px;
+                            padding: 9px 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .container-shoes{
+            height: 50vh;
+            .bags{
+                .bags-text{
+                    position: relative;
+                    left: 10%;
+                    margin-top: 58px;
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 12px;
+                        width: 80%;
+                    }
+                    .buttons{
+                        .learn-more{
+                            font-size: 12px;
+                            padding: 10px 14px;
+                        }
+                        .get-start{
+                            font-size: 12px;
+                            padding: 9px 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .bag-product{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .rows{
+            p{
+                font-size: 20px;
+                margin-left: 32px;
+            }
+        }
+        .product-bag{
+            width: 100%;
+            padding: 12px;
+            gap: 20px;
+            margin-top: 30px;
+            .product-card {
+                display: flex;
+                width: 20%;
+                max-width: 1000px;
+                height: 25vh;
+                flex: 1 1 900px; 
+                img {
+                    width: 35%;
+                    height: 18vh;
+                    margin-top: 10px;
+                }
+                .group_information{
+                    margin-left: 30px;
+                    margin-top: -25px;
+
+                    .product-btn{
+                        padding: 8px 24px;
+                    }
+                }
+            }   
+            .shop-more{
+                margin-top: 10px;
+            }
+        }
+        .popular-bag{ 
+            display: none;       
+        }
+    }
+    .div-footer{
+        .more-product{
+            font-size: 20px;
+        }
+        .show-more{
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .footer-container{
+        display: none;
+    }
+}
